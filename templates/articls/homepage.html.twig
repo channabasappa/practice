@@ -1,0 +1,116 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+
+            <!-- Article List -->
+
+            <div class="col-sm-12 col-md-8">
+
+                <!-- H1 Article -->
+                <a class="main-article-link" href="#">
+                    <div class="main-article mb-5 pb-3">
+                        <!-- <img src="{{ asset('images/meteor-shower.jpg') }}" alt="meteor shower"> -->
+                        <h1 class="text-center mt-2">Live Jobs show section</h1>
+                    </div>
+                </a>
+				
+				<!-- H1 Article -->
+                <a class="main-article-link" href="#">
+                    <div class="main-article mb-5 pb-3">
+                        <!-- <img src="{{ asset('images/meteor-shower.jpg') }}" alt="meteor shower"> -->
+                        <h1 class="text-center mt-2">Expire Jobs show section</h1>
+                    </div>
+                </a>
+
+                <!-- Supporting Articles -->
+
+                <!-- <div class="article-container my-1">
+                    <a href="{{ path('app_showarticle', {newshowpage:'dsfdsf'}) }}">
+                        <img class="article-img" src="{{ asset('images/asteroid.jpeg') }}">
+                        <div class="article-title d-inline-block pl-3 align-middle">
+                            <span>Why do Asteroids Taste Like Bacon?</span>
+                            <br>
+                            <span class="align-left article-details"><img class="article-author-img rounded-circle" src="{{ asset('images/alien-profile.png') }}"> Mike Ferengi </span>
+                            <span class="pl-5 article-details float-right"> 3 hours ago</span>
+                        </div>
+                    </a>
+                </div> 
+
+                <div class="article-container my-1">
+                    <a href="#">
+                        <img class="article-img"  src="{{ asset('images/mercury.jpeg') }}">
+                        <div class="article-title d-inline-block pl-3 align-middle">
+                            <span>Life on Planet Mercury: <br> Tan, Relaxing and Fabulous</span>
+                            <br>
+                            <span class="align-left article-details"><img class="article-author-img rounded-circle" src="{{ asset('images/astronaut-profile.png') }}"> Amy Oort </span>
+                            <span class="pl-5 article-details float-right"> 6 days ago</span>
+                        </div>
+                    </a>
+                </div> 
+
+                <div class="article-container my-1">
+                    <a href="#">
+                        <img class="article-img" src="{{ asset('images/lightspeed.png') }}">
+                        <div class="article-title d-inline-block pl-3 align-middle">
+                            <span>Light Speed Travel: <br> Fountain of Youth or Fallacy</span>
+                            <br>
+                            <span class="align-left article-details"><img class="article-author-img rounded-circle" src="{{ asset('images/astronaut-profile.png') }}"> Amy Oort </span>
+                            <span class="pl-5 article-details float-right"> 2 weeks ago</span>
+                        </div>
+                    </a>
+                </div> -->
+
+            </div>
+
+            <!-- Right bar ad space -->
+
+
+            <div class="col-sm-12 col-md-4 text-center">
+                <div class="ad-space mx-auto mt-1 pb-2 pt-2">
+                    <!-- <img class="advertisement-img" src="{{ asset('images/space-ice.png') }}">
+                    <p><span class="advertisement-text">New:</span> Space Ice Cream!</p>-->
+                    <button class="btn btn-info" data-toggle="modal" data-target="#myModal">Create New Job!</button>
+                </div>
+
+                <!-- <div class="quote-space pb-2 pt-2 px-5">
+                    <h3 class="text-center pb-3">Trending Quotes</h3>
+                    <p><i class="fa fa-comment"></i> "Our two greatest problems are gravity and paperwork. We can lick gravity, but sometimes the paperwork is overwhelming." <br>— <a href="https://en.wikipedia.org/wiki/Wernher_von_Braun">Wernher von Braun, Rocket Engineer</a></p>
+
+                    <p class="pt-4"><i class="fa fa-comment"></i> "Let's face it, space is a risky business. I always considered every launch a barely controlled explosion." <br>— <a href="https://en.wikipedia.org/wiki/Aaron_Cohen_(Deputy_NASA_administrator)">Aaron Cohen, NASA Administrator</a></p>
+
+                    <p class="pt-4"><i class="fa fa-comment"></i> "If offered a seat on a rocket ship, don't ask what seat. Just get on."<br>— <a href="https://en.wikipedia.org/wiki/Christa_McAuliffe">Christa McAuliffe, Challenger Astronaut</a>
+                </div> -->
+            </div>
+			
+			
+			 <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Create New Job</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          Needs to add fields -->In Progress
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+		  <button type="button" class="btn btn-primary">Save</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+			
+        </div>
+    </div>
+{% endblock %}
